@@ -1,6 +1,34 @@
-.chart {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.chart-container {
+    position: relative; 
+    height:30vh; 
+    width:60vw;
     margin: auto;
-    width: 70%;
-    padding: 10px;
-    height: auto;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+    .chart-container {
+        height: 30vh; 
+        width: 50vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .chart-container {
+        height: 25vh; 
+        width: 40vh;
+        background-color: "green";
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .chart-container {
+        height: 20vh; 
+        width: 30vh
+    }
 }

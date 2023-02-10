@@ -32,7 +32,9 @@ async function getData(){
         y: {
           beginAtZero: true
         }
-      }
+      },
+      responsive: true,
+      maintainAspectRatio: false,
     }
   });
   
